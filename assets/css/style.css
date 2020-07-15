@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
+div#map {min-height: 360px;}
+
 /*----------------------------------------------------- Colors */
 
 .bg-color-name-title {
@@ -32,6 +34,14 @@
 
 .ui-menu-color-contact {
   background-color: #3498db;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-download {
@@ -371,3 +381,7 @@ button[type="submit"] {
     max-width: 50%;
   }
 }
+
+
+------ JS --------
+
